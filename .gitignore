@@ -15,8 +15,8 @@ obj/
 .DS_Store
 
 # ── Editor ──
-.vscode/*
-!.vscode/extensions.json
+**/.vscode/*
+!**/.vscode/extensions.json
 .idea/
 
 # ── Logs ──
