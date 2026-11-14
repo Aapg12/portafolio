@@ -1,0 +1,25 @@
+# ── Dependencias (Node) ──
+node_modules/
+# ── Build y caché de Astro ──
+dist/
+.astro/
+# ── .NET ──
+bin/
+obj/
+# ── Secretos ──
+.env
+.env.*
+!.env.example
+
+# ── macOS ──
+.DS_Store
+
+# ── Editor ──
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# ── Logs ──
+*.log
+npm-debug.log*
+pnpm-debug.log*
